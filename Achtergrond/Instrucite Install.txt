@@ -1,0 +1,11 @@
+Maak een Win32 app van achtergrond
+
+Install command
+powershell.exe copy-item “.\Background-1.jpg” -destination “C:\Windows\Web\Wallpaper”
+
+Uninstall command
+powershell.exe remove-item “C:\Windows\Web\Wallpaper\Background-1.jpg”
+
+Detect
+
+File C:\Windows\Web\Wallpaper
