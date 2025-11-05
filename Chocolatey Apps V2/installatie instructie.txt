@@ -1,0 +1,12 @@
+%WINDIR%\sysnative\WindowsPowerShell\v1.0\powershell.exe -executionpolicy bypass .\Chocoinstall.ps1 -app "plak hier naam van app zie chocoaltey packages"
+%WINDIR%\sysnative\WindowsPowerShell\v1.0\powershell.exe -executionpolicy bypass .\Chocouninstall.ps1 -app "plak hier naam van app zie chocoaltey packages"
+
+
+
+VOORBEELD
+%WINDIR%\sysnative\WindowsPowerShell\v1.0\powershell.exe -executionpolicy bypass .\Chocoinstall.ps1 -app zoom
+%WINDIR%\sysnative\WindowsPowerShell\v1.0\powershell.exe -executionpolicy bypass .\Chocouninstall.ps1 -app zoom
+
+
+Verander naam in detectie script naar naam van app
+
