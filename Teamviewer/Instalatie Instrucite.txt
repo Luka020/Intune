@@ -1,0 +1,40 @@
+
+
+    Create a new folder on C:\DeployTeamviewerQS
+    Create a new folder on C:\Output
+    Download your TeamviewerQS Agent. (Your IT Department should have an own Teamviewer QS). Otherwise you can download it from the       official Website.
+    Make sure you name it TeamViewerQS.exe
+    Copy the TeamViewerQS.exe in the DeployTeamviewerQS folder
+    Copy the CopyTeamviewerQS.ps1 PowerShell script from step1 in the DeployTeamviewerQS folder
+
+
+
+    Please specify the source folder: C:\DeployTeamviewerQS
+    Please specify the setup file: CopyTeamviewerQS.ps1
+    Please specify the output folder: C:\Output
+    Do you want to specify catalog folder: N
+    In your Output Folder, there should be a new file called CopyTeamviewerQS.intunewin
+
+
+
+
+
+
+
+
+
+
+Install Command: powershell.exe -Executionpolicy Bypass -File .\CopyTeamviewerQS.ps1
+Uninstall command: –
+
+Install Behavior: System
+
+
+Rules format: Manually configure detection rules
+Click on Add
+Rule type: File
+Path: C:\Users\Public\Desktop\
+File or Folder: Support.exe
+Detection method: File or folder exists
+Associated with a 32-bit app on 64-bit clients: No
+Click on Ok and on Next
